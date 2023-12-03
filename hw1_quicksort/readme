@@ -1,0 +1,9 @@
+# Run code
+
+mkdir build
+cd build
+cmake ..
+cmake --build .
+./main seq
+./main par
+
