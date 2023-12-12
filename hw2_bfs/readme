@@ -1,0 +1,9 @@
+# Run code (200 vertices. Set `0` to read from file)
+
+mkdir build
+cd build
+cmake ..
+cmake --build .
+./main seq 200
+./main par 200
+
